@@ -38,6 +38,13 @@ Docker Container with PHP 7, MySQL 5.7 and OXID eShop 6 (beta)
   - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer creates=/usr/local/bin/composer
   
 - [Install OXID](http://oxid-eshop-developer-documentation.readthedocs.io/en/latest/getting_started/eshop_installation.html)
+  - cd /var/www
+  - composer create-project --no-dev oxid-esales/oxideshop-project shop6beta dev-b-6.0-ce
+  
+  will create /var/www/shop6beta/source and  /var/www/shop6beta/vendor
+  
+  - ln -s /var/www/shop6beta/source folder to /var/www/html  
+  (if possible)  
 - Have fun ...
 
 
