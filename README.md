@@ -48,6 +48,7 @@ Docker Container with PHP 7, MySQL 5.7 and OXID eShop 6 (beta)
   
   - Note:
     At the oxid shop installatin you will be asked for the database hostname, to find the correct hostname do the following:
+
     `docker ps`
 
     `docker inspect [CONTAINER ID of oxid6_mysql]`
