@@ -52,7 +52,8 @@ Docker Container with PHP 7, MySQL 5.7 and OXID eShop 6 (beta)
     `docker ps`
 
     `docker inspect [CONTAINER ID of oxid6_mysql]`
-    search for "IPAddress"
+
+    than search for "IPAddress"
 
 - Have fun ...
 
