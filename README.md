@@ -45,6 +45,13 @@ Docker Container with PHP 7, MySQL 5.7 and OXID eShop 6 (beta)
   
   - ln -s /var/www/shop6beta/source folder to /var/www/html  
   (if possible)  
+  
+  - Note:
+    At the oxid shop installatin you will be asked for the database hostname, to find the correct hostname do the following:
+    `docker ps`
+    `docker inspect [CONTAINER ID of oxid6_mysql]`
+    search for "IPAddress"
+
 - Have fun ...
 
 
